@@ -1,6 +1,8 @@
 # vga-animation
 Double buffered animation with vertical synchronization. Implemented as bootloader for 80286 with VGA. Written in NASM.
 
+![](example.gif)
+
 ## Building
 ```$ nasm -f bin src/main.asm -o floppy.bin```
 
